@@ -1,0 +1,47 @@
+{
+  "name": "call-anyone-mcp",
+  "displayName": "Call Anyone in Any Language",
+  "version": "1.0.0",
+  "description": "Plan and place outbound phone calls in the callee's language with your own Bland or Twilio account: language detection, goal-based script, cost estimate and a preview you must confirm before any call. Then fetch transcript and summary. The caller always discloses it's an AI; emergency and premium numbers are blocked.",
+  "author": {
+    "name": "MAASAI Labs",
+    "email": "colepresley000@gmail.com"
+  },
+  "homepage": "https://maasai.tech",
+  "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "phone-calls",
+    "voice",
+    "translation",
+    "twilio",
+    "bland"
+  ],
+  "logo": "assets/logo.png",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "BLAND_API_KEY": {
+        "type": "string",
+        "title": "Bland API key",
+        "description": "Your own Bland AI API key. Needed only to place calls through Bland."
+      },
+      "TWILIO_ACCOUNT_SID": {
+        "type": "string",
+        "title": "Twilio Account SID",
+        "description": "Your own Twilio Account SID. Use instead of Bland."
+      },
+      "TWILIO_AUTH_TOKEN": {
+        "type": "string",
+        "title": "Twilio auth token",
+        "description": "Your own Twilio auth token."
+      },
+      "TWILIO_FROM_NUMBER": {
+        "type": "string",
+        "title": "Twilio caller number",
+        "description": "A Twilio number you own, in E.164 format."
+      }
+    }
+  }
+}

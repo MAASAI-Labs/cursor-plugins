@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "prediction-odds": {
+      "url": "https://prediction-odds-mcp.vercel.app/mcp"
+    }
+  }
+}

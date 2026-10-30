@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "domain-hunter": {
+      "url": "https://domain-hunter-mcp.vercel.app/mcp"
+    }
+  }
+}

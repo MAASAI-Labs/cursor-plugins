@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "chip-intel": {
+      "url": "https://chip-intel-mcp.vercel.app/mcp"
+    }
+  }
+}

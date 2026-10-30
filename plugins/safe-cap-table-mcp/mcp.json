@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "safe-cap-table": {
+      "url": "https://safe-cap-table-mcp.vercel.app/mcp"
+    }
+  }
+}

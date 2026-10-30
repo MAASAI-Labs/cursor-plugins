@@ -1,0 +1,22 @@
+{
+  "name": "domain-hunter-mcp",
+  "displayName": "Domain Hunter",
+  "version": "1.0.0",
+  "description": "Brainstorm brandable domain names from a product idea and check live availability through registry RDAP (WHOIS fallback) with Porkbun list prices. Also does registration lookups with expiry/drop signals, DNS records with an SPF/DMARC check, live TLS certificate details and TLD pricing. It never buys anything; purchase links are returned only on request.",
+  "author": {
+    "name": "MAASAI Labs",
+    "email": "colepresley000@gmail.com"
+  },
+  "homepage": "https://maasai.tech",
+  "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "domains",
+    "rdap",
+    "whois",
+    "dns",
+    "ssl"
+  ],
+  "logo": "assets/logo.png"
+}

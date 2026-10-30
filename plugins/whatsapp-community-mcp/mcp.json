@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "whatsapp-community": {
+      "url": "https://whatsapp-community-mcp.vercel.app/mcp",
+      "headers": {
+        "x-green-api-id-instance": "${GREEN_API_ID_INSTANCE}",
+        "x-green-api-token-instance": "${GREEN_API_TOKEN_INSTANCE}"
+      }
+    }
+  }
+}

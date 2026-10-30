@@ -1,0 +1,22 @@
+{
+  "name": "space-launch-tracker-mcp",
+  "displayName": "Space Launch & Starlink Tracker",
+  "version": "1.0.0",
+  "description": "Upcoming launches worldwide with live countdowns (Launch Library 2), Starship flight status and news, and visible ISS, Tiangong, Hubble and Starlink-train passes for any location using CelesTrak orbital data. Every answer cites its source and fetch time.",
+  "author": {
+    "name": "MAASAI Labs",
+    "email": "colepresley000@gmail.com"
+  },
+  "homepage": "https://maasai.tech",
+  "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "space",
+    "rocket-launches",
+    "starlink",
+    "iss",
+    "satellites"
+  ],
+  "logo": "assets/logo.png"
+}

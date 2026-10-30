@@ -1,0 +1,219 @@
+{
+  "name": "maasai-labs",
+  "owner": {
+    "name": "MAASAI Labs",
+    "email": "colepresley000@gmail.com"
+  },
+  "metadata": {
+    "description": "MAASAI Labs: 10 free, open-source (MIT) remote MCP plugins for Cursor.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "safe-cap-table-mcp",
+      "source": "./plugins/safe-cap-table-mcp",
+      "description": "Model any startup round in seconds: post- and pre-money SAFEs (cap, discount, MFN), convertible notes, priced rounds, multi-tranche and extension rounds at different caps, option pool top-ups (pre vs post-money) and advisor/placement fees. Returns before/after cap tables, per-holder dilution and fully diluted ownership, validated against YC's standard SAFE examples. Works for any market.",
+      "version": "1.2.0",
+      "author": {
+        "name": "MAASAI Labs",
+        "email": "colepresley000@gmail.com"
+      },
+      "homepage": "https://maasai.tech",
+      "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+      "license": "MIT",
+      "keywords": [
+        "mcp",
+        "startups",
+        "safe",
+        "cap-table",
+        "fundraising",
+        "finance"
+      ]
+    },
+    {
+      "name": "space-launch-tracker-mcp",
+      "source": "./plugins/space-launch-tracker-mcp",
+      "description": "Upcoming launches worldwide with live countdowns (Launch Library 2), Starship flight status and news, and visible ISS, Tiangong, Hubble and Starlink-train passes for any location using CelesTrak orbital data. Every answer cites its source and fetch time.",
+      "version": "1.0.0",
+      "author": {
+        "name": "MAASAI Labs",
+        "email": "colepresley000@gmail.com"
+      },
+      "homepage": "https://maasai.tech",
+      "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+      "license": "MIT",
+      "keywords": [
+        "mcp",
+        "space",
+        "rocket-launches",
+        "starlink",
+        "iss",
+        "satellites"
+      ]
+    },
+    {
+      "name": "orbital-watch-mcp",
+      "source": "./plugins/orbital-watch-mcp",
+      "description": "Live satellite and debris tracking from CelesTrak, predicted close approaches (CelesTrak SOCRATES), and NOAA SWPC space weather (flares, Kp, geomagnetic storms, alerts) with plain-English impact on GPS, HF radio and Starlink. Informational only, sourced and timestamped.",
+      "version": "1.0.0",
+      "author": {
+        "name": "MAASAI Labs",
+        "email": "colepresley000@gmail.com"
+      },
+      "homepage": "https://maasai.tech",
+      "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+      "license": "MIT",
+      "keywords": [
+        "mcp",
+        "satellites",
+        "space-debris",
+        "space-weather",
+        "celestrak",
+        "noaa"
+      ]
+    },
+    {
+      "name": "breach-radar-mcp",
+      "source": "./plugins/breach-radar-mcp",
+      "description": "Passive, public-data security checks: Have I Been Pwned breach lookups (email lookups only when the server operator has set an HIBP key), k-anonymous password checks, NIST CVE search, CISA Known Exploited Vulnerabilities, and a domain's public attack surface (security headers, TLS, SPF/DMARC/DNSSEC/CAA, certificate-transparency subdomains). No scanning or probing.",
+      "version": "1.0.0",
+      "author": {
+        "name": "MAASAI Labs",
+        "email": "colepresley000@gmail.com"
+      },
+      "homepage": "https://maasai.tech",
+      "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+      "license": "MIT",
+      "keywords": [
+        "mcp",
+        "security",
+        "haveibeenpwned",
+        "cve",
+        "cisa-kev",
+        "attack-surface"
+      ]
+    },
+    {
+      "name": "chip-intel-mcp",
+      "source": "./plugins/chip-intel-mcp",
+      "description": "Source-cited AI accelerator specs and side-by-side comparisons (NVIDIA, AMD, Google TPU, AWS Trainium), a TSMC/Samsung/Intel process-node map, US export-control screening against the official Consolidated Screening List (incl. BIS Entity List), SEC filings and revenue for major chip companies, and chip news briefings. Every figure links to its source.",
+      "version": "1.0.0",
+      "author": {
+        "name": "MAASAI Labs",
+        "email": "colepresley000@gmail.com"
+      },
+      "homepage": "https://maasai.tech",
+      "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+      "license": "MIT",
+      "keywords": [
+        "mcp",
+        "semiconductors",
+        "ai-chips",
+        "export-controls",
+        "sec-filings"
+      ]
+    },
+    {
+      "name": "whatsapp-community-mcp",
+      "source": "./plugins/whatsapp-community-mcp",
+      "description": "Run WhatsApp groups with your own Green API instance (optional WhatsApp Cloud API): list groups, read recent messages, summarise activity (top posters, busiest hours, unanswered questions, links), draft announcements, and post or schedule messages. Every send needs explicit confirmation; per-user isolated storage.",
+      "version": "1.0.0",
+      "author": {
+        "name": "MAASAI Labs",
+        "email": "colepresley000@gmail.com"
+      },
+      "homepage": "https://maasai.tech",
+      "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+      "license": "MIT",
+      "keywords": [
+        "mcp",
+        "whatsapp",
+        "community",
+        "green-api",
+        "messaging"
+      ]
+    },
+    {
+      "name": "call-anyone-mcp",
+      "source": "./plugins/call-anyone-mcp",
+      "description": "Plan and place outbound phone calls in the callee's language with your own Bland or Twilio account: language detection, goal-based script, cost estimate and a preview you must confirm before any call. Then fetch transcript and summary. The caller always discloses it's an AI; emergency and premium numbers are blocked.",
+      "version": "1.0.0",
+      "author": {
+        "name": "MAASAI Labs",
+        "email": "colepresley000@gmail.com"
+      },
+      "homepage": "https://maasai.tech",
+      "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+      "license": "MIT",
+      "keywords": [
+        "mcp",
+        "phone-calls",
+        "voice",
+        "translation",
+        "twilio",
+        "bland"
+      ]
+    },
+    {
+      "name": "prediction-odds-mcp",
+      "source": "./plugins/prediction-odds-mcp",
+      "description": "Live odds from Polymarket and Kalshi in one place: search markets by topic, trending markets by 24h volume, live top-of-book for any market, cross-venue comparisons that only match markets with identical resolution terms, and short briefings on the biggest moves. Read-only, sourced and timestamped; probabilities, not advice.",
+      "version": "1.0.0",
+      "author": {
+        "name": "MAASAI Labs",
+        "email": "colepresley000@gmail.com"
+      },
+      "homepage": "https://maasai.tech",
+      "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+      "license": "MIT",
+      "keywords": [
+        "mcp",
+        "prediction-markets",
+        "polymarket",
+        "kalshi",
+        "odds"
+      ]
+    },
+    {
+      "name": "x-marketplace-seller-mcp",
+      "source": "./plugins/x-marketplace-seller-mcp",
+      "description": "Sell items on X: create listings with a private floor and ceiling, draft buyer replies with intent and scam detection, run a negotiation engine that never goes below your floor or reveals it, draft pickup/delivery handoffs, and keep a deal ledger. Posting and DMs use your own X token, and every post, DM or deal needs explicit confirmation. Storage is isolated per user.",
+      "version": "1.0.0",
+      "author": {
+        "name": "MAASAI Labs",
+        "email": "colepresley000@gmail.com"
+      },
+      "homepage": "https://maasai.tech",
+      "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+      "license": "MIT",
+      "keywords": [
+        "mcp",
+        "x",
+        "marketplace",
+        "selling",
+        "negotiation"
+      ]
+    },
+    {
+      "name": "domain-hunter-mcp",
+      "source": "./plugins/domain-hunter-mcp",
+      "description": "Brainstorm brandable domain names from a product idea and check live availability through registry RDAP (WHOIS fallback) with Porkbun list prices. Also does registration lookups with expiry/drop signals, DNS records with an SPF/DMARC check, live TLS certificate details and TLD pricing. It never buys anything; purchase links are returned only on request.",
+      "version": "1.0.0",
+      "author": {
+        "name": "MAASAI Labs",
+        "email": "colepresley000@gmail.com"
+      },
+      "homepage": "https://maasai.tech",
+      "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+      "license": "MIT",
+      "keywords": [
+        "mcp",
+        "domains",
+        "rdap",
+        "whois",
+        "dns",
+        "ssl"
+      ]
+    }
+  ]
+}

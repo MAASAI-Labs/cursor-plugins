@@ -1,0 +1,36 @@
+{
+  "name": "whatsapp-community-mcp",
+  "displayName": "WhatsApp Community Manager",
+  "version": "1.0.0",
+  "description": "Run WhatsApp groups with your own Green API instance (optional WhatsApp Cloud API): list groups, read recent messages, summarise activity (top posters, busiest hours, unanswered questions, links), draft announcements, and post or schedule messages. Every send needs explicit confirmation; per-user isolated storage.",
+  "author": {
+    "name": "MAASAI Labs",
+    "email": "colepresley000@gmail.com"
+  },
+  "homepage": "https://maasai.tech",
+  "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "whatsapp",
+    "community",
+    "green-api",
+    "messaging"
+  ],
+  "logo": "assets/logo.png",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "GREEN_API_ID_INSTANCE": {
+        "type": "string",
+        "title": "Green API instance ID",
+        "description": "Your own Green API idInstance. Needed to list groups, read messages and post."
+      },
+      "GREEN_API_TOKEN_INSTANCE": {
+        "type": "string",
+        "title": "Green API instance token",
+        "description": "Your own Green API apiTokenInstance."
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "breach-radar-mcp",
+  "displayName": "Breach Radar",
+  "version": "1.0.0",
+  "description": "Passive, public-data security checks: Have I Been Pwned breach lookups (email lookups only when the server operator has set an HIBP key), k-anonymous password checks, NIST CVE search, CISA Known Exploited Vulnerabilities, and a domain's public attack surface (security headers, TLS, SPF/DMARC/DNSSEC/CAA, certificate-transparency subdomains). No scanning or probing.",
+  "author": {
+    "name": "MAASAI Labs",
+    "email": "colepresley000@gmail.com"
+  },
+  "homepage": "https://maasai.tech",
+  "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "security",
+    "haveibeenpwned",
+    "cve",
+    "cisa-kev",
+    "attack-surface"
+  ],
+  "logo": "assets/logo.png"
+}

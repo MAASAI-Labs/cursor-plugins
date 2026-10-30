@@ -1,0 +1,22 @@
+{
+  "name": "orbital-watch-mcp",
+  "displayName": "Orbital Watch",
+  "version": "1.0.0",
+  "description": "Live satellite and debris tracking from CelesTrak, predicted close approaches (CelesTrak SOCRATES), and NOAA SWPC space weather (flares, Kp, geomagnetic storms, alerts) with plain-English impact on GPS, HF radio and Starlink. Informational only, sourced and timestamped.",
+  "author": {
+    "name": "MAASAI Labs",
+    "email": "colepresley000@gmail.com"
+  },
+  "homepage": "https://maasai.tech",
+  "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "satellites",
+    "space-debris",
+    "space-weather",
+    "celestrak",
+    "noaa"
+  ],
+  "logo": "assets/logo.png"
+}

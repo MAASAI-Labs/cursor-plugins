@@ -1,0 +1,31 @@
+{
+  "name": "x-marketplace-seller-mcp",
+  "displayName": "X Marketplace Seller",
+  "version": "1.0.0",
+  "description": "Sell items on X: create listings with a private floor and ceiling, draft buyer replies with intent and scam detection, run a negotiation engine that never goes below your floor or reveals it, draft pickup/delivery handoffs, and keep a deal ledger. Posting and DMs use your own X token, and every post, DM or deal needs explicit confirmation. Storage is isolated per user.",
+  "author": {
+    "name": "MAASAI Labs",
+    "email": "colepresley000@gmail.com"
+  },
+  "homepage": "https://maasai.tech",
+  "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "x",
+    "marketplace",
+    "selling",
+    "negotiation"
+  ],
+  "logo": "assets/logo.png",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "X_USER_ACCESS_TOKEN": {
+        "type": "string",
+        "title": "X user access token",
+        "description": "Your own X OAuth 2.0 user-context token with tweet.write (and dm.write for DMs). Only needed to post listings or send DMs."
+      }
+    }
+  }
+}

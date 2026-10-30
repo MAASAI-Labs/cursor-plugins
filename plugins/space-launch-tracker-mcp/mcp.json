@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "space-launch-tracker": {
+      "url": "https://space-launch-tracker-mcp.vercel.app/mcp"
+    }
+  }
+}

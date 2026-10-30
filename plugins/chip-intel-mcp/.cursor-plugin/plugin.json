@@ -1,0 +1,21 @@
+{
+  "name": "chip-intel-mcp",
+  "displayName": "Chip Intel",
+  "version": "1.0.0",
+  "description": "Source-cited AI accelerator specs and side-by-side comparisons (NVIDIA, AMD, Google TPU, AWS Trainium), a TSMC/Samsung/Intel process-node map, US export-control screening against the official Consolidated Screening List (incl. BIS Entity List), SEC filings and revenue for major chip companies, and chip news briefings. Every figure links to its source.",
+  "author": {
+    "name": "MAASAI Labs",
+    "email": "colepresley000@gmail.com"
+  },
+  "homepage": "https://maasai.tech",
+  "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "semiconductors",
+    "ai-chips",
+    "export-controls",
+    "sec-filings"
+  ],
+  "logo": "assets/logo.png"
+}

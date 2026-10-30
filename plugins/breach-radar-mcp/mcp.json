@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "breach-radar": {
+      "url": "https://breach-radar-mcp.vercel.app/mcp"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "call-anyone": {
+      "url": "https://call-anyone-mcp.vercel.app/mcp",
+      "headers": {
+        "x-bland-api-key": "${BLAND_API_KEY}",
+        "x-twilio-account-sid": "${TWILIO_ACCOUNT_SID}",
+        "x-twilio-auth-token": "${TWILIO_AUTH_TOKEN}",
+        "x-twilio-from-number": "${TWILIO_FROM_NUMBER}"
+      }
+    }
+  }
+}

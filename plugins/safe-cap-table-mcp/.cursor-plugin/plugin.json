@@ -1,0 +1,22 @@
+{
+  "name": "safe-cap-table-mcp",
+  "displayName": "SAFE & Cap Table Calculator",
+  "version": "1.2.0",
+  "description": "Model any startup round in seconds: post- and pre-money SAFEs (cap, discount, MFN), convertible notes, priced rounds, multi-tranche and extension rounds at different caps, option pool top-ups (pre vs post-money) and advisor/placement fees. Returns before/after cap tables, per-holder dilution and fully diluted ownership, validated against YC's standard SAFE examples. Works for any market.",
+  "author": {
+    "name": "MAASAI Labs",
+    "email": "colepresley000@gmail.com"
+  },
+  "homepage": "https://maasai.tech",
+  "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "startups",
+    "safe",
+    "cap-table",
+    "fundraising",
+    "finance"
+  ],
+  "logo": "assets/logo.png"
+}

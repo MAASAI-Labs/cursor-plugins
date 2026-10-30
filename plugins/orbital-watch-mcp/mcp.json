@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "orbital-watch": {
+      "url": "https://orbital-watch-mcp.vercel.app/mcp"
+    }
+  }
+}

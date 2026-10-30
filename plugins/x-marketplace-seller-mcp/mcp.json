@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "x-marketplace-seller": {
+      "url": "https://x-marketplace-seller-mcp.vercel.app/mcp",
+      "headers": {
+        "x-x-user-access-token": "${X_USER_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

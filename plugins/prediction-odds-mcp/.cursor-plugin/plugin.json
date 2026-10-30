@@ -1,0 +1,21 @@
+{
+  "name": "prediction-odds-mcp",
+  "displayName": "Prediction Market Odds",
+  "version": "1.0.0",
+  "description": "Live odds from Polymarket and Kalshi in one place: search markets by topic, trending markets by 24h volume, live top-of-book for any market, cross-venue comparisons that only match markets with identical resolution terms, and short briefings on the biggest moves. Read-only, sourced and timestamped; probabilities, not advice.",
+  "author": {
+    "name": "MAASAI Labs",
+    "email": "colepresley000@gmail.com"
+  },
+  "homepage": "https://maasai.tech",
+  "repository": "https://github.com/MAASAI-Labs/cursor-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "prediction-markets",
+    "polymarket",
+    "kalshi",
+    "odds"
+  ],
+  "logo": "assets/logo.png"
+}
